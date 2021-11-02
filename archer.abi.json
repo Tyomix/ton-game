@@ -1,0 +1,74 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getDef",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"int256"}
+			]
+		},
+		{
+			"name": "getAtk",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"int256"}
+			]
+		},
+		{
+			"name": "HPleft",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"int256"}
+			]
+		},
+		{
+			"name": "HP",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"HP","type":"int256"}
+			]
+		},
+		{
+			"name": "atk",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"atk","type":"int256"}
+			]
+		},
+		{
+			"name": "def",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"def","type":"int256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"HP","type":"int256"},
+		{"name":"atk","type":"int256"},
+		{"name":"def","type":"int256"}
+	]
+}
